@@ -10,22 +10,17 @@ import marshal
 
 try:
 
-    import requests
+    طلب الاستيراد  الحالي . استيراد العقود الآجلة  ThreadPoolExecutor كـ ThreadPool   
 
-    from concurrent.futures import ThreadPoolExecutor as ThreadPool
+    استيراد  الميكنة
 
-    import mechanize
-
-    from requests.exceptions import ConnectionError
+    من  الطلبات . استثناءات  استيراد  ConnectionError
 
 except ModuleNotFoundError:
 
     os.system('pip install requests pip , install futures , pip install rich')
 
     os.system('python USMAN.py')
-
-    os.system("xdg-open https://www.facebook.com/profile.php?id=100074423508403&mibextid=ZbWKwL")
-
 from bs4 import BeautifulSoup
 
 ugen = []
